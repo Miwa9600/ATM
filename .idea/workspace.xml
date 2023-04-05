@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d81e0cd7-a76b-4e88-8aba-817bfd30c32d" name="Changes" comment="rename org.example to org.ATM">
+    <list default="true" id="d81e0cd7-a76b-4e88-8aba-817bfd30c32d" name="Changes" comment="Bank imp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ATM/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ATM/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ATM/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ATM/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,23 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ATM" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,7 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/misha/Hexlet",
+    "last_opened_file_path": "/home/misha/IdeaProjects/ATM",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.file-colors"
   }
 }]]></component>
@@ -84,7 +103,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680636269332</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Transaction imp">
+      <created>1680698301601</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680698301601</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Bank imp">
+      <created>1680698481508</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680698481508</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +137,8 @@
     <MESSAGE value="User class imp" />
     <MESSAGE value="Account class imp" />
     <MESSAGE value="rename org.example to org.ATM" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename org.example to org.ATM" />
+    <MESSAGE value="Transaction imp" />
+    <MESSAGE value="Bank imp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bank imp" />
   </component>
 </project>
