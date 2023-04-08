@@ -13,5 +13,13 @@ public class Bank {
         return null;
     }
 
+    public String getNewAccountUUID() {
+        return null;
+    }
+
+    public void addAccount(Account anAcct) {
+        this.accounts.add(anAcct);
+    }
+
 
 }

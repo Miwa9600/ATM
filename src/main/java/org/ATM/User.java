@@ -34,4 +34,8 @@ public class User {
         System.out.printf("New user %s, %s with ID %s created.\n", lastName,
                 firstName, this.uuId);
     }
+
+    public void addAccount(Account anAcct) {
+        this.accounts.add(anAcct);
+    }
 }
