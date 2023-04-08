@@ -15,6 +15,10 @@ public class User {
     private byte pinHash[];
     private ArrayList<Account> accounts;
 
+    public String getUUID() {
+        return uuId;
+    }
+
     public User(String firstName, String lastName, String pin, Bank theBank) {
         this.firstName = firstName;
         this.lastName = lastName;
