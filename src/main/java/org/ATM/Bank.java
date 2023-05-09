@@ -66,8 +66,16 @@ public class Bank {
 
 
 
-    public void addAccount(Account anAcct) {
-        this.accounts.add(anAcct);
+
+
+    public User addUser(String firstName, String lastName, String pin) {
+        User newUser = new User(firstName, lastName, pin, this);
+        this.user.add(newUser);
+
+        Account newAccount = new Account("Savings", newUser, this);
+        newUser.addAccount(newAccount);
+        this.accounts.add(newAccount);
+        return newUser;
     }
 
 
